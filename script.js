@@ -14,6 +14,7 @@ function scrollFunction() {
     }
 }
 
+
 // Section 2 JSON
 let sec2Boxs = document.getElementById('sec2Boxs');
 
