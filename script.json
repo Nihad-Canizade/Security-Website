@@ -1,0 +1,22 @@
+{
+    "boxs": [
+        {
+            "id": 1,
+            "image": "./images/s2-box1-img.webp",
+            "name": "Basic & Common Repairs",
+            "description": "Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical."
+        },
+        {
+            "id": 2,
+            "image": "./images/s2-box2-img.webp",
+            "name": "Brake Repairs & Services",
+            "description": "Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical."
+        },
+        {
+            "id": 3,
+            "image": "./images/s2-box3-img.webp",
+            "name": "Preventive Maintenance",
+            "description": "Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical."
+        }
+    ]
+}
