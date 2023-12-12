@@ -29,6 +29,11 @@ function getDataJson() {
             <img src="${element.image}" alt="Image">
             <div class="sec2-box-p1">${element.name}</div>
             <div class="sec2-box-p2">${element.description}</div>
+            <div class = "sec2-box-btns">
+            <button class = "sec2-box-btn"><a href = "./details.html?id=${element.id}" target = "_blank">View Details</a></button>
+            <button class = "sec2-box-btn" onclick = "boxsDelete(${element.id})")>Delete</button>
+            <button class = "sec2-box-btn"><a href = "./update.html?id=${element.id}" target = "_blank">Update</a></button>
+            </div>
          </div>
             `
             })
@@ -36,3 +41,12 @@ function getDataJson() {
 }
 
 getDataJson();
+
+
+// Boxs delete function
+function boxsDelete(id) {
+    axios.delete(`http://localhost:3000/boxs/${id}`)
+    window.location.reload()
+}
+
+

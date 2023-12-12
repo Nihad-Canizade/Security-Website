@@ -267,6 +267,34 @@
     line-height: 1.625em;
 }
 
+.sec2-box-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sec2-box-btn {
+    width: 150px;
+    font-size: 15px;
+    padding: 5px 10px;
+    background-color: rgb(41, 41, 41);
+    border: 1px solid rgb(41, 41, 41);
+    cursor: pointer;
+    font-weight: 400;
+    color: white;
+}
+
+.sec2-box-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.sec2-box-btn:active {
+    background-color: black;
+}
+
 
 /* Section 3 */
 .section3 {
@@ -423,3 +451,77 @@
 .sec4-box-lk i {
     margin-right: 5px;
 }
+
+
+/* Footer */
+footer{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #04091E;
+}
+
+.footer-in{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot1{
+    width: 33%;
+    margin-top: 5rem;
+}
+
+.foot2{
+    width: 33%;
+}
+
+.foot3{
+    width: 25%;
+}
+
+.foot1-p1, .foot2-p1, .foot3-p1{
+    color: white;
+    font-size: 18px;
+    margin: 0px 0px 25px;
+    font-weight: 600;
+}
+
+.foot1-p2, .foot2-p2, .foot3-p2{
+    color: #777777;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+}
+
+.foot1-p3{
+    color: #777777;
+    font-size: 16px;
+    margin: 0px 0px 16px;
+}
+
+.foot2-input{
+    font-size: 15px;
+    padding: 10px 100px 10px 10px;
+}
+
+.foot2-btn{
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: #fab700;
+    border: 1px solid #fab700;
+    cursor: pointer;
+}
+
+.foot3-icons{
+    color: white;
+    font-size: 13px;
+}
+
+.foot3-icons i{
+    margin-right: 20px;
+}
+
+.foot3-icons i:hover{
+    cursor: pointer;
+    color: #fab700;
+}
+
