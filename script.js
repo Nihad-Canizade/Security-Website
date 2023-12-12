@@ -18,20 +18,21 @@ function scrollFunction() {
 // Section 2 JSON
 let sec2Boxs = document.getElementById('sec2Boxs');
 
-function getDataJson(){
+function getDataJson() {
     fetch('http://localhost:3000/boxs')
-    .then(response => response.json())
-    .then(data =>{
-        data.forEach(element =>{
-            sec2Boxs.innerHTML += `
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(element => {
+                sec2Boxs.innerHTML += `
             <div class="sec2-box">
+            <i class="bi bi-heart"></i>
             <img src="${element.image}" alt="Image">
             <div class="sec2-box-p1">${element.name}</div>
             <div class="sec2-box-p2">${element.description}</div>
          </div>
             `
+            })
         })
-    })
 }
 
 getDataJson();

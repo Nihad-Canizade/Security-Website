@@ -13,7 +13,7 @@
 }
 
 /* Selection style */
-::selection{
+::selection {
     background-color: #fab700;
 }
 
@@ -159,33 +159,33 @@
     background-size: cover;
 }
 
-.sec1-in{
+.sec1-in {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     padding-top: 15rem;
 }
 
-.sec1-p1{
+.sec1-p1 {
     color: white;
     font-size: 14px;
 }
 
-.sec1-p2{
+.sec1-p2 {
     color: white;
     font-size: 45px;
     margin: 20px 0px 0px;
     font-weight: 700;
 }
 
-.sec1-p3{
+.sec1-p3 {
     color: white;
     font-size: 14px;
     margin: 0px 0px 16px;
     padding: 20px 0px;
 }
 
-.sec1-btn{
+.sec1-btn {
     color: white;
     font-weight: 500;
     border: 1px solid transparent;
@@ -193,7 +193,7 @@
     background-color: #fab700;
 }
 
-.sec1-btn:hover{
+.sec1-btn:hover {
     color: #fab700;
     border: 1px solid #fab700;
     background-color: transparent;
@@ -203,60 +203,63 @@
 
 
 /* Section 2 */
-.section2{
+.section2 {
     width: 100%;
     padding: 120px 0px;
 }
 
-.sec2-in{
+.sec2-in {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.sec2-p1{
+.sec2-p1 {
     color: #222222;
     font-size: 36px;
     margin: 0px 0px 10px;
     font-weight: 600;
 }
 
-.sec2-p2{
+.sec2-p2 {
     color: #777777;
     font-size: 14px;
     margin: 0px 0px 16px;
 }
 
-.sec2-boxs{
+.sec2-boxs {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 5rem;
 }
 
-.sec2-box{
+.sec2-box {
     width: 30%;
     padding: 20px;
+
 }
 
-.sec2-box:hover{
+.sec2-box:hover {
     background-color: #fab700;
     transition: .3s;
 }
 
-.sec2-box img{
+
+.sec2-box img {
     width: 100%;
+    margin-top: 10px;
 }
 
-.sec2-box-p1{
+.sec2-box-p1 {
     color: #222222;
     font-size: 18px;
     padding: 20px 0px;
     font-weight: 600;
 }
 
-.sec2-box-p2{
+.sec2-box-p2 {
     color: #777777;
     font-size: 15px;
     margin: 0px 0px 16px;
@@ -266,34 +269,34 @@
 
 
 /* Section 3 */
-.section3{
+.section3 {
     width: 100%;
     padding: 120px 0px;
     background-color: #F9F9FF;
 }
 
-.sec3-in{
+.sec3-in {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
 }
 
-.sec3-p1{
+.sec3-p1 {
     color: #222222;
     font-size: 36px;
     margin: 0px 0px 20px;
     font-weight: 600;
 }
 
-.sec3-p2{
+.sec3-p2 {
     color: #777777;
     font-size: 14px;
     margin: 0px 0px 16px;
     font-weight: 300;
 }
 
-.sec3-boxs{
+.sec3-boxs {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -301,21 +304,21 @@
     flex-wrap: wrap;
 }
 
-.sec3-box{
+.sec3-box {
     width: 32%;
     padding: 30px;
     background-color: white;
     margin-top: 25px;
 }
 
-.sec3-box:hover{
+.sec3-box:hover {
     background-color: #fab700;
     cursor: pointer;
     box-shadow: 5px 10px 20px rgb(108, 108, 108);
     transition: .3s;
 }
 
-.sec3-box-p1{
+.sec3-box-p1 {
     color: #222222;
     font-size: 18px;
     margin: 20px 5px;
@@ -323,9 +326,100 @@
     font-weight: 600;
 }
 
-.sec3-box-p2{
+.sec3-box-p2 {
     color: #777777;
     font-size: 14px;
     margin: 15px 0px 16px;
 }
 
+
+/* Section 4 */
+.section4 {
+    width: 100%;
+    padding: 120px 0px;
+}
+
+.sec4-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec4-p1 {
+    color: #222222;
+    font-size: 36px;
+    margin: 0px 0px 10px;
+    font-weight: 600;
+}
+
+.sec4-p2 {
+    color: #777777;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+    max-width: 650px;
+    text-align: center;
+}
+
+.sec4-boxs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.sec4-box {
+    width: 23%;
+    margin-top: 3rem;
+}
+
+.sec4-box:hover .sec4-box-p2 {
+    color: #fab700;
+    transition: .3s;
+}
+
+.sec4-box img {
+    width: 100%;
+}
+
+.sec4-box-p1 {
+    color: white;
+    font-size: 14px;
+    background-color: #000000;
+    margin: 20px 0px 16px;
+    padding: 2px 15px;
+    text-align: center;
+    width: 115px;
+}
+
+.sec4-box-p2 {
+    color: #222222;
+    font-size: 18px;
+    margin: 0px 0px 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sec4-box-p3 {
+    color: #777777;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+}
+
+.sec4-box-lk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec4-box-lk-l,
+.sec4-box-lk-c {
+    color: #777777;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+
+}
+
+.sec4-box-lk i {
+    margin-right: 5px;
+}
