@@ -25,7 +25,7 @@ function getDataJson() {
             data.forEach(element => {
                 sec2Boxs.innerHTML += `
             <div class="sec2-box">
-            <i class="bi bi-heart"></i>
+            <i class="bi bi-heart-fill" onclick = "addFavorite(${element.id})" style="cursor: pointer;"></i>
             <img src="${element.image}" alt="Image">
             <div class="sec2-box-p1">${element.name}</div>
             <div class="sec2-box-p2">${element.description}</div>
@@ -39,14 +39,27 @@ function getDataJson() {
             })
         })
 }
-
 getDataJson();
 
 
 // Boxs delete function
 function boxsDelete(id) {
     axios.delete(`http://localhost:3000/boxs/${id}`)
-    window.location.reload()
+    window.location.reload();
 }
 
+
+// Favorite Function
+
+
+
+function addFavorite(id) {
+    let biheartfill = document.querySelector(".bi-heart-fill");
+    axios.get('http://localhost:3000/boxs/' + id)
+        .then(res => {
+            axios.post('http://localhost:3000/favorites', res.data)
+        })
+
+    biheartfill.classList.toggle("new-heart-class");
+}
 

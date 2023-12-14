@@ -158,6 +158,26 @@
     color: white;
 }
 
+/* Add button */
+.add-btn{
+    margin-left: 20px;
+    font-size: 15px;
+    padding: 1px 8px;
+    cursor: pointer;
+    background-color: rgb(224, 224, 224);
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.add-btn a{
+    color: black;
+    text-decoration: none;
+}
+
+.add-btn:active{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 253, 253);
+}
+
 
 /* Section 1 */
 .section1 {
@@ -304,6 +324,11 @@
 
 .sec2-box-btn:active {
     background-color: black;
+}
+
+.section2 .new-heart-class{
+    color: red;
+   
 }
 
 
